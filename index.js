@@ -4,9 +4,9 @@ const router = express.Router();
 const axios = require("axios");
 
 app.use("/", router);
-var url = "http://mock-api.com/7gP4Djgl.mock/birdsumpuzzle";
+var url = "http://mock-api.com/onwlmeKN.mock/skidtrial";
 
-router.get("/newversion", (req, res) => {
+router.get("/nversion", (req, res) => {
   axios
     .get(url)
     .then((response) => {
